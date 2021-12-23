@@ -18,24 +18,26 @@
       <table>
         <tr>
           <td><label for="Enter Your Name">Your Name :</label></td>
-          <td><input type="text" id="Enter Your Name" name="Name :" value=""></td>
+          <td><input type="text" id="Enter Your Name" placeholder="Enter Your Name" name="Name :" value=""></td>
         </tr>
         <tr>
           <td><label>Your Email :</label></td>
-          <td><input type="email" id="Enter Your Email" name="Email :" value=""></td>
+          <td><input type="email" id="Enter Your Email" placeholder="Enter Your Email" name="Email :" value=""></td>
         </tr>
         <tr>
           <td><label>Your Message</label></td>
-          <td><textarea name="name" rows="10" cols="20"></textarea></td>
+          <td><textarea name="name" rows="10" placeholder="Your Message" cols="20"></textarea></td>
         </tr>
       </table>
       <label>Enter Your type of Query:</label></td>
-      <select name="Query Type" id="Query Type"></select>
-        <option value="General"></option>
-        <option value="Specific"></option>
-        <option value="Personal"></option>
+      <select name="Query Type" id="Query Type">
+        <option value="General">General</option>
+        <option value="Specific">Specific</option>
+        <option value="Personal">Personal</option>
+      </select>
       <p>I agree to the terms and conditions <input type="checkbox" name="" value=""></p>
-      <input type="submit" name="" value="">
+      <input type="submit" placeholder="Submit" name="" value="submit">
+      <input type="reset" name="" value="reset">
     </form>
   </body>
 </html>
